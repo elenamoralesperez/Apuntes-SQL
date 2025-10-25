@@ -12,4 +12,5 @@ services:
 volumes:
       postgresDB:
 
-#Esto siempre asi
+# Se configura una vez para instalarte PostgresSQL
+# Te has instalado una imagen de Docker

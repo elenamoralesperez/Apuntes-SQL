@@ -47,6 +47,7 @@ DROP DATABASE myFirstDB;            --> DROP es para eliminar
 **¡¡¡¡¡¡¡¡¡¡¡AL FINAL DE CADA CONSULTA ;**
 
 
+## ¡!
 
 *DNS: TE TRADUCE LA IP EN UN NOMBRE*
 *Por ejemplo: 142.251.140.238 es www.google.com*
@@ -66,3 +67,20 @@ services:
 
 volumes:
       postgresDB:
+
+
+- El icono del elefante es una interfaz para poder trabajar con la base de datos
+- Comando para ver volumen: **docker volume ls**
+
+
+- Variable de entorno: variables globales que tenemos en el sistema
+- NOT NULL --> no puede estar en blanco 
+- UNIQUE --> caracter unico
+- DROP TABLE --> te elimina la tabla
+- TRUNCATE --> elimina todos los datos de la tabla pero NO LA TABLA; la vacia
+- ALTER --> modificar
+- ADD --> añadir
+- INSERT --> guardar datos en la base de datos
+- SELECT --> permite que la base de datos sepa que desea recuperar datos
+- WHERE --> solo debe afectar a las filas que cumplen los criterios especificados
+*SELECT * FROM users WHERE age=19;*
